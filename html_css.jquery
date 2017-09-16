@@ -1,0 +1,8 @@
+//A//
+$("p").html("lorem");
+
+//B//
+$("p").append("lorem ipsum");
+$("links").remove();
+$("card").empty();
+//C//

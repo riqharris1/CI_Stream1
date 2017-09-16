@@ -34,7 +34,7 @@ $("img").click(function(){
 $(".card").click(function(){
 	$(this).toggleClass("highlight");	 
 });
-//cards not currently seleced will be hidden when select_btn is clicked
+//cards not currently selected will be hidden when select_btn is clicked
 $("#select_btn").click(function(){
 	$(".card:not(.highlight)").hide();	 
 });
